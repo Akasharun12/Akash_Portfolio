@@ -43,7 +43,7 @@
         }
 
         img:hover {
-            transform: scale(1.1);
+            transform: scale(1.04);
         }
 
         .inside_heading {
@@ -62,7 +62,7 @@
             max-width: 66%;
         }
 
-        section {
+        .section {
             max-width: 95%;
             max-width: 1200px;
             margin: 2em auto;
@@ -142,12 +142,20 @@
     }
 
         /* Media queries for responsive design */
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 600px) {
             .details {
                 flex-direction: column;
                 align-items: center;
+                display: flex;
                 padding: 20px;
                 width: 93%;
+            }
+
+            section{
+                flex-direction: column;
+                align-items: center;
+                display: flex;
+
             }
 
             
