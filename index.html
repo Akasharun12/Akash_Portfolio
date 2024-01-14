@@ -136,13 +136,21 @@
             border-radius: 4px;
         }
 
+        .center-text {
+            flex-direction: column;
+            text-align: center;
+    }
+
         /* Media queries for responsive design */
         @media screen and (max-width: 768px) {
             .details {
                 flex-direction: column;
-                align-items: flex-start;
+                align-items: center;
                 padding: 20px;
+                width: 93%;
             }
+
+            
 
             img {
                 max-width: 100%;
@@ -164,6 +172,8 @@
                 width: 100%;
                 margin: 0;
             }
+
+            
         }
     </style>
 </head>
@@ -226,15 +236,15 @@
             <div class="column">
                 <div class="box details-box projects">
                     <h2 class="project-content">Projects</h2>
-                    <p><strong>1. Smart Attendance Management System -</strong> It is designed to streamline the process of storing and retrieving employee information within an organization. The user interface can be developed using Python frameworks such as Tkinter. To store the employee data, Python offers a relational database management system (RDBMS) like MySQL, Heidi SQL.</p>
-                    <p><strong>2. LogIN Registration form with Database Connectivity -</strong> It aims to streamline the attendance tracking by automatically recognizing faces, notifying administrators via text messages, and providing voice alerts for real-time updates. Smart Attendance Management System that harnesses the power of OpenCV Deep Learning, a popular computer vision library, and an email integration to create a sophisticated and automated solution.</p>
+                    <p><strong> 1. <u>Smart Attendance Management System</u> - </strong> It is designed to streamline the process of storing and retrieving employee information within an organization. The user interface can be developed using Python frameworks such as Tkinter. To store the employee data, Python offers a relational database management system (RDBMS) like MySQL, Heidi SQL.</p>
+                    <p><strong>2. <u>LogIN Registration form with Database Connectivity</u> -</strong> It aims to streamline the attendance tracking by automatically recognizing faces, notifying administrators via text messages, and providing voice alerts for real-time updates. Smart Attendance Management System that harnesses the power of OpenCV Deep Learning, a popular computer vision library, and an email integration to create a sophisticated and automated solution.</p>
                     <!-- Add more projects as needed -->
                 </div>
             </div>
         </div>
 
-        <div class="details">
-            &copy; 2024 Akash - AI Developer
+        <div class="details center-text">
+            &copy; 2024 Akash - AI Developer 
         </div>
 
     </section>
